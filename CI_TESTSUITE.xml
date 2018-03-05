@@ -1,0 +1,56 @@
+<suite name="TestSuite" verbose="1">
+<parameter name="applicationContextRoot" value="http://eng-hub-verify04.dc1.lan/"/>
+<parameter name="browser" value="firefox" />
+<parameter name="quitBrowser" value="true" />
+<parameter name="user" value="sysadmin" />
+<parameter name="password" value="blackduck" />
+<parameter name="timeOutInSeconds" value="60" />
+<parameter name="resizeWindowYAxisByRatio" value="1" />
+<parameter name="resizeWindowXAxisByRatio" value="1" />
+<parameter name="isRegression" value="false" />
+<parameter name="logLevel" value="INFO" />
+<parameter name="collectServerInfo" value="false" />
+
+<test verbose="2" name="NavigationTest" preserve-order="true" annotations="JDK">
+<classes>
+<class name="com.blackducksoftware.qa.webdriver.twom.crud.NavigationTest" />
+</classes>
+</test>
+
+<test verbose="2" name="NavigationTest" preserve-order="true" annotations="JDK">
+<classes>
+<class name="com.blackducksoftware.qa.webdriver.twom.crud.NavigationTest" />
+</classes>
+</test>
+
+<test verbose="2" name="LdapTest" preserve-order="true" annotations="JDK">
+<classes>
+<class name="com.blackducksoftware.qa.webdriver.twom.regression.LdapTest" />
+</classes>
+</test>
+
+<test verbose="2" name="GroupMembersCrudTest" preserve-order="true" annotations="JDK">
+<classes>
+<class name="com.blackducksoftware.qa.webdriver.twom.crud.GroupMembersCrudTest" />
+</classes>
+</test>
+
+<test verbose="2" name="UserGroupsCrudTest" preserve-order="true" annotations="JDK">
+<classes>
+<class name="com.blackducksoftware.qa.webdriver.twom.crud.UserGroupsCrudTest" />
+</classes>
+</test>
+
+<test verbose="2" name="UsersCrudTest" preserve-order="true" annotations="JDK">
+<classes>
+<class name="com.blackducksoftware.qa.webdriver.twom.crud.UsersCrudTest" />
+</classes>
+</test>
+
+<test verbose="2" name="UserPermissionsTest" preserve-order="true" annotations="JDK">
+<classes>
+<class name="com.blackducksoftware.qa.webdriver.twom.regression.UsersPermissionsTest" />
+</classes>
+</test>
+
+</suite>

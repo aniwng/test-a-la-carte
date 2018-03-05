@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "pageId": "Dashboard",
+      "description": "One of our favorite and most traveled through pages as it is the gateway to all that we have to offer.",
+      "subDescription": "WARNING: Contains only Navigation and Global Search Test as all other tests will use Dashboard as its starting place.",
+      "runTime": 5,
+      "icon": "ducky",
+      "rating": 3
+    }
+  ,
+    {
+      "pageId": "Projects",
+      "description": "A robust test suite that will take you through all the wonders and delights of creating & using projects.",
+      "subDescription": "Contain Projects, Versions, Members, Groups and Sort Tests",
+      "runTime": 15,
+      "icon": "chili",
+      "rating": 1
+    }
+  ,
+    {
+      "pageId": "Code Locations",
+      "description": "A vibrant set of tests that create Scan and BOM code locations, use aliases, and associate to Project versions.",
+      "subDescription": "Contain Projects, Versions, Members, Groups and Sort Tests",
+      "runTime": 8
+    }
+  ,
+    {
+      "pageId": "Policy Management",
+      "description": "Basic Policy Management create, delete, and implementation of policies.",
+      "subDescription": "Contain Policy Management and Projects Tests",
+      "runTime": 2
+    }
+  ,
+    {
+      "pageId": "Reports",
+      "description": "Will be a set of tests run on the Report Page.  Basic CRUD - Create, Read, Update, Delete.",
+      "subDescription": "Contain Report Tests",
+      "runTime": 2
+    }
+  ,
+    {
+      "pageId": "Administration",
+      "description": "A intensive test suite that currently covers: Group Management, User Management, LDAP and Product Registration.",
+      "subDescription": "Contain Administration, Users, Groups, Members, LDAP and Product Registration Tests",
+      "runTime": 13
+    }
+  ,
+    {
+      "pageId": "Recents",
+      "description": "A journey through Navigation that populates the Recents Menu and verifies.",
+      "subDescription": "Contain Navigation Tests",
+      "runTime": 15
+    }
+  ,
+    {
+      "pageId": "System",
+      "description": "A work in progress.  Will test Help launches and User Profiles.",
+      "subDescription": "Contain User Profile and Help Tests",
+      "runTime": 1
+    }
+  ,
+    {
+      "pageId": "Components",
+      "description": "A plethera of tests dealing with Components in Project Versions.",
+      "subDescription": "Contain Components Tests",
+      "runTime": 15
+    }
+
+  ]
+}
